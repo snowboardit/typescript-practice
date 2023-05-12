@@ -1,2 +1,2 @@
 # typescript-practice
-TypeScript Practice Repo
+Max's TypeScript Practice Repo

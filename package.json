@@ -1,0 +1,19 @@
+{
+  "name": "typescript-practice",
+  "version": "1.0.0",
+  "description": "Max's TypeScript practice repo",
+  "main": "index.js",
+  "scripts": {
+    "run:all": "tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowboardit/typescript-practice.git"
+  },
+  "author": "Max Lareau",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/snowboardit/typescript-practice/issues"
+  },
+  "homepage": "https://github.com/snowboardit/typescript-practice#readme"
+}
