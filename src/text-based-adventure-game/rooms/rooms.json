@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Entrance Hall",
+        "description": "A grand, marble-floored entrance hall. The front door is to the south.",
+        "items": ["map"],
+        "exits": {"north": "Main Corridor"}
+    },
+    {
+        "name": "Main Corridor",
+        "description": "A long, echoey corridor stretching east and west. It's lined with portraits of stern-looking people.",
+        "items": [],
+        "exits": {"south": "Entrance Hall", "east": "Library", "west": "Dining Room", "north": "Armory"}
+    },
+    {
+        "name": "Library",
+        "description": "A quiet, dusty library filled with books from floor to ceiling. There's a cozy fire burning in a fireplace.",
+        "items": ["book"],
+        "exits": {"west": "Main Corridor", "north": "Study Room"}
+    },
+    {
+        "name": "Study Room",
+        "description": "A small, private study room. A desk covered with papers sits in the center.",
+        "items": ["pen", "letter"],
+        "exits": {"south": "Library"}
+    },
+    {
+        "name": "Dining Room",
+        "description": "A large dining room with a long, oak table. It looks like it hasn't been used in years.",
+        "items": ["candlestick"],
+        "exits": {"east": "Main Corridor", "north": "Kitchen"}
+    },
+    {
+        "name": "Kitchen",
+        "description": "A busy, bustling kitchen filled with delicious smells. Pots and pans hang from the ceiling.",
+        "items": ["knife", "apple"],
+        "exits": {"south": "Dining Room"}
+    },
+    {
+        "name": "Armory",
+        "description": "A cold, metallic room filled with suits of armor and weapons. It's a bit unnerving.",
+        "items": ["sword"],
+        "exits": {"south": "Main Corridor", "west": "Blacksmith", "east": "Archery Range", "north": "Guard Room"}
+    },
+    {
+        "name": "Blacksmith",
+        "description": "A hot, sooty blacksmith's forge. The fire is still burning.",
+        "items": ["hammer", "horseshoe"],
+        "exits": {"east": "Armory"}
+    },
+    {
+        "name": "Archery Range",
+        "description": "An outdoor archery range. There's a target at the far end.",
+        "items": ["bow", "arrow"],
+        "exits": {"west": "Armory"}
+    },
+    {
+        "name": "Guard Room",
+        "description": "A small room where the castle guards probably hang out. There's a card game still in progress on the table.",
+        "items": ["cards"],
+        "exits": {"south": "Armory", "north": "Prison Cell"}
+    },
+    {
+        "name": "Prison Cell",
+        "description": "A dank, dark prison cell. You hope you don't end up here.",
+        "items": ["rusty key"],
+        "exits": {"south": "Guard Room"}
+    },
+    {
+        "name": "Secret Passage",
+        "description": "A hidden, dimly-lit passage. It's cold and a bit creepy.",
+        "items": [],
+        "exits": {"north": "Treasure Room", "south": "Library"}
+    },
+    {
+        "name": "Treasure Room",
+        "description": "A brightly lit room filled with piles of gold and jewels. You've found the treasure!",
+        "items": ["gold", "jewels"],
+        "exits": {"south": "Secret Passage"}
+    },
+    {
+        "name": "Servants' Quarters",
+        "description": "A simple, cozy room where the castle's servants must have slept. It's very quiet.",
+        "items": ["broom"],
+        "exits": {"east": "Kitchen"}
+    },
+    {
+        "name": "Gardens",
+        "description": "Beautiful, sprawling gardens filled with colorful flowers and chirping birds. It's very peaceful.",
+        "items": ["flower"],
+        "exits": {"north": "Archery Range"}
+    }
+]

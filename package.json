@@ -2,9 +2,10 @@
   "name": "typescript-practice",
   "version": "1.0.0",
   "description": "Max's TypeScript practice repo",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "run:all": "tsc index.ts && node index.js"
+    "compile": "tsc",
+    "start:game": "node dist/text-based-adventure-game/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/snowboardit/typescript-practice/issues"
   },
-  "homepage": "https://github.com/snowboardit/typescript-practice#readme"
+  "homepage": "https://github.com/snowboardit/typescript-practice#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
 }
